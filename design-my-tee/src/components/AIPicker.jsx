@@ -5,7 +5,7 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
   return (
     <div className="absolute left-full ml-3 glassmorphism p-3 w-[195px] h-[220px] rounded-md flex flex-col gap-4">
       <textarea
-        className="w-full bg-transparent text-sm border border-gray-300 p-2 outline-none flex-1"
+        className="w-full bg-transparent text-sm border border-gray-300 p-2 outline-none flex-1 text-white"
         placeholder="Ask ai"
         rows={5}
         value={prompt}

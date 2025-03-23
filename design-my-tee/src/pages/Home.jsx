@@ -1,8 +1,7 @@
-import React, { use } from "react";
+import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useSnapshot } from "valtio";
 import {
-  headContainerAnimation,
   headContentAnimation,
   headTextAnimation,
   slideAnimation,
@@ -21,14 +20,14 @@ const Home = () => {
         >
           <motion.header {...slideAnimation("down")}>
             <img
-              src="./threejs.png"
+              src="./design-my-tee.png"
               alt="logo"
-              className="w-12 h-12 object-contain"
+              className="w-16 h-16 object-contain"
             />
           </motion.header>
           <motion.div className="home-content" {...headContentAnimation}>
             <motion.div {...headTextAnimation}>
-              <h1 className="xl:text-[10rem] text-[6rem] xl:leading-[11rem] leading-[7rem] font-black text-black">
+              <h1 className="xl:text-[10rem] text-[6rem] xl:leading-[11rem] leading-[7rem] font-black text-white">
                 LET'S <br className="xl:block hidden" /> DO IT.
               </h1>
             </motion.div>
@@ -36,7 +35,7 @@ const Home = () => {
               className="flex flex-col gap-5"
               {...headContentAnimation}
             >
-              <p className="max-w-md font-normal text-gray-600 text-base">
+              <p className="max-w-md font-normal text-white text-base">
                 Create your unique and exclusive shirt with our brand-new 3D
                 customization tool. <strong>Unleash your imagination</strong>
                 &nbsp; and define your own style.
