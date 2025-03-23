@@ -21,7 +21,7 @@ Users can customize the t-shirt color, upload and adjust a logo, and ensure a re
 ## Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/design-my-tee.git
+   git clone https://github.com/vinay-nb/designmytee.git
    cd design-my-tee
    ```
 2. Install dependencies:
