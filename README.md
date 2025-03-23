@@ -5,7 +5,7 @@ Users can customize the t-shirt color, upload and adjust a logo, and ensure a re
 ## Features
 - 🎨 **3D Rendering**: Real-time 3D model rendering of the T-shirt.
 - 🎨 **Customize Colors**: Change the T-shirt color dynamically.
-- 🖼️ **Change Logo**: Add a custom logo with adjustable size and position.
+- 🖼️ **Change Logo**: Add a custom logo with adjustable size.
 - 📤 **Upload Image for Logo**: Users can upload their own images as logos.
 - 📱 **Responsive Design**: Fully optimized for all screen sizes.
 - 📥 **Download Designed T-shirt**: Save the customized T-shirt design.
